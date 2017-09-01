@@ -1,0 +1,28 @@
+body {
+    background-color: #DBDBDB !important;
+}
+       
+header, main, nav, footer {
+    text-align: center;
+}
+       
+li {
+    display: inline-block;
+    /* float: left; */
+}
+       
+nav a {    /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;    /* removes underline */
+    color: blue;             /* by default, links are blue */
+}
+
+#me #welcomeText {
+    float: left;
+}
+
+footer {
+    clear: left;
+}
