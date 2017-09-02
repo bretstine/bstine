@@ -1,5 +1,6 @@
 body {
-    background-color: #DBDBDB !important;
+    background-color: black !important;
+    color: white;
 }
        
 header, main, nav, footer {
@@ -12,11 +13,18 @@ li {
 }
        
 nav a {    /* links within "nav" container */
-    padding: 15px;
+    padding: 5px;
     padding-bottom: 4px;
     font-size: 1.8em;
-    text-decoration: none;    /* removes underline */
-    color: blue;             /* by default, links are blue */
+    text-decoration: underline;    /* removes underline */
+    color: white;             /* by default, links are blue */
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+nav a:hover {
+    border-bottom: 2px;
+    font-size: 2em;
+    transition: .9s;
 }
 
 #me #welcomeText {
@@ -25,4 +33,34 @@ nav a {    /* links within "nav" container */
 
 footer {
     clear: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby {
+    color: yellow;
 }
