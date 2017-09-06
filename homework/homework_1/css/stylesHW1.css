@@ -6,10 +6,6 @@ body {
 header, main, nav, footer {
     text-align: center;
 }
-
-nav li {
-    display: inline-block;
-}
        
 nav a {    /* links within "nav" container */
     padding: 0px 10px;
@@ -72,8 +68,8 @@ body.netw ul {
     color: orange;
 }
 
-#design {
-    display: inline;
+h2 {
+    display: inline-block;
     color: orange;
 }
 
