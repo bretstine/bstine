@@ -107,9 +107,8 @@ body.soft a:hover {
     border-bottom: 1px orange solid;
 }
 
-.bordering {
-    border-left: 1px orange solid;
-    border-width: medium;
+#uniform {
+    width: 50%;
 }
 
 
