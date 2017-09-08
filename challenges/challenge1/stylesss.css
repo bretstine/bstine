@@ -15,6 +15,7 @@ header {
 }
 
 .images {
+    display: inline-block;
     text-align: center;
 }
 
