@@ -41,7 +41,8 @@
     <nav>
         <a href="./lab/lab1/index.html"><h3>Lab 1</h3></a><b>|</b>
         <a href="./homework/homework_1/homepage.html"><h3>Homework 1</h3></a><b>|</b>
-        <a href="./lab/lab2/index.php"><h3>Lab 2</h3></a>
+        <a href="./lab/lab2/index.php"><h3>Lab 2</h3></a><b>|</b>
+        <a href="./homework/homework_2/homework2.php"><h3>Homework 2</h3></a>
     </nav>
     
 </body>
