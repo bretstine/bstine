@@ -29,7 +29,7 @@
             {
                 showthree();
             }
-            if (array_key_exists('showall',$_POST))
+            else if (array_key_exists('showall',$_POST))
             {
                 showallpictures();
             }

@@ -22,7 +22,6 @@
     function randPicture(&$pictureIMG)
     {
         $index = rand(0, count($pictureIMG) - 1);
-        
         $filetype = filetypePIC($pictureIMG, $index);
         
         echo "<a href='img_BG/$pictureIMG[$index].$filetype' target='_blank'>";
@@ -53,27 +52,31 @@
     
     function showthree()
     {
-        $pictureIMG = array("abstract_3931x2621", "airballoon_1920x1307", "colourcity_1920x1200",
+        $pictureIMG_1 = array("abstract_3931x2621", "airballoon_1920x1307", "colourcity_1920x1200",
                             "darkfantasy_2314x1080", "futurescifi_1920x1350", "gotdragon_3840x2180",
                             "moon_3458x2594", "nebula_2560x1440", "planet_1920x1200", 
                             "skypaper_6480x4320", "treewater_4069x2340", "yourname_1920x1200");
         
-        for($i=0;i<count($pictureIMG) - 10;$i++)
+        $num = count($pictureIMG_1) - 9;
+        
+        for($i=0;$i<$num;$i++)
         {
-            randPicture($pictureIMG);
+            randPicture($pictureIMG_1);
         }
     }
 
     function showallpictures()
     {
-        $pictureIMG = array("abstract_3931x2621", "airballoon_1920x1307", "colourcity_1920x1200",
+        $pictureIMG_2 = array("abstract_3931x2621", "airballoon_1920x1307", "colourcity_1920x1200",
                             "darkfantasy_2314x1080", "futurescifi_1920x1350", "gotdragon_3840x2180",
                             "moon_3458x2594", "nebula_2560x1440", "planet_1920x1200", 
                             "skypaper_6480x4320", "treewater_4069x2340", "yourname_1920x1200");
         
-        for($i=0;i<count($pictureIMG);$i++)
+        $num = count($pictureIMG_2);
+        
+        for($i=0;$i<$num;$i++)
         {
-            randPicture($pictureIMG);
+            randPicture($pictureIMG_2);
         }
     }
     
