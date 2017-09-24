@@ -1,5 +1,0 @@
-[08-Sep-2017 19:18:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/bstine/practice/randomColour.php on line 17
-[08-Sep-2017 19:18:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/bstine/practice/randomColour.php on line 17
-[08-Sep-2017 19:18:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/bstine/practice/randomColour.php on line 17
-[08-Sep-2017 19:29:41 UTC] PHP Parse error:  syntax error, unexpected '");"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/bstine/practice/randomColour.php on line 11
-[13-Sep-2017 19:28:58 UTC] PHP Parse error:  syntax error, unexpected '"' width='70' />"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/bstine/practice/php_arrays.php on line 5
