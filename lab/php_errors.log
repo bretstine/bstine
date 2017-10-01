@@ -1,0 +1,12 @@
+[29-Sep-2017 19:27:20 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/bstine/lab/lab4/index.php on line 74
+[29-Sep-2017 19:27:20 UTC] PHP Stack trace:
+[29-Sep-2017 19:27:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/lab/lab4/index.php:0
+[29-Sep-2017 19:27:50 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/bstine/lab/lab4/index.php on line 74
+[29-Sep-2017 19:27:50 UTC] PHP Stack trace:
+[29-Sep-2017 19:27:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/lab/lab4/index.php:0
+[29-Sep-2017 19:28:10 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/bstine/lab/lab4/index.php on line 74
+[29-Sep-2017 19:28:10 UTC] PHP Stack trace:
+[29-Sep-2017 19:28:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/lab/lab4/index.php:0
+[29-Sep-2017 20:05:11 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/bstine/lab/lab4/index.php on line 104
+[29-Sep-2017 20:05:11 UTC] PHP Stack trace:
+[29-Sep-2017 20:05:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/lab/lab4/index.php:0

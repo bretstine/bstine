@@ -1,0 +1,4 @@
+[27-Sep-2017 20:29:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/bstine/practice/zodiac/index.php on line 53
+[27-Sep-2017 20:30:10 UTC] PHP Fatal error:  Call to undefined function getYears() in /home/ubuntu/workspace/bstine/practice/zodiac/index.php on line 52
+[27-Sep-2017 20:30:10 UTC] PHP Stack trace:
+[27-Sep-2017 20:30:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/practice/zodiac/index.php:0
