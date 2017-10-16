@@ -1,3 +1,5 @@
+# Bret stine
+# CST 336
 <?php
 
     include '../../dbConnection.php';
