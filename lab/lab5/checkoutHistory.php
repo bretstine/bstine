@@ -3,7 +3,7 @@
     function displayCheckoutHistory() {
         
         include '../../dbConnection.php';
-        $conn = getDatabastConnection();
+        $conn = getDatabaseConnection();
         
         $sql = "SELECT * FROM `tc_checkout` NATURAL JOIN tc_device NATURAL JOIN tc_user WHERE deviceId = :deviceId";
         
