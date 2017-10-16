@@ -2,7 +2,7 @@
 
     include '../../dbConnection.php';
     
-    $conn = getDatabastConnection();
+    $conn = getDatabaseConnection();
     
     function getDeviceType() {
         global $conn;
