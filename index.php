@@ -8,29 +8,34 @@
         
         <style>
             body {
-                background-color: black !important;
+                background: radial-gradient(#999999, #999999, gray);
                 text-align: center;
+                color: black;
             }
             
-            nav a {    /* links within "nav" container */
+            nav a, header {    /* links within "nav" container */
                 padding: 0px 10px;
                 padding-bottom: 2px;
                 font-size: 1.8em;
                 word-wrap: normal;
                 display: inline-block;
                 text-decoration: none;
-                color: white;             /* by default, links are blue */
+                color: black;             /* by default, links are blue */
                 font-family: 'Baloo Bhaijaan', cursive;
             }
             
             nav a:hover {
-                border-bottom: 2px orange solid;
+                border-bottom: 2px purple solid;
                 font-size: 2em;
                 transition: .9s;
             }
             
             b {
-                color: orange;
+                color: purple;
+            }
+            
+            hr {
+                border: 1px solid purple;
             }
         </style>
     </head>
@@ -38,12 +43,16 @@
 
 <body>
     
+    <header> Heroku Links </header>
+    <hr />
+    
     <nav>
         <a href="./lab/lab1/index.html"><h3>Lab 1</h3></a><b>|</b>
         <a href="./lab/lab2/index.php"><h3>Lab 2</h3></a><b>|</b>
         <a href="./lab/lab3/index.php"><h3>Lab 3</h3></a><b>|</b>
         <a href="./lab/lab4/index.php"><h3>Lab 4</h3></a><b>|</b>
-        <a href="./lab/lab5/index.php"><h3>Lab 5</h3></a>
+        <a href="./lab/lab5/index.php"><h3>Lab 5</h3></a><b>|</b>
+        <a href="./lab/lab6/index.php"><h3>Lab 6</h3></a>
         
         <br /> <br />
         <a href="./homework/homework_1/homepage.html"><h3>Homework 1</h3></a><b>|</b>

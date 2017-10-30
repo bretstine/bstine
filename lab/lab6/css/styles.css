@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background: radial-gradient(#999999, #999999, gray);
+}
+
+input, select, option {
+    font-family: 'Merriweather', serif;
+}
+
+.sub {
+    font-size: 2em;
+    margin: 5px;
+}
