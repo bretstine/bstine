@@ -127,7 +127,8 @@
         if (isset($_GET['z-a'])) {
             $sql .= " ORDER BY movieName DESC";
         }
-    
+        
+        $sql .= " LIMIT 20";
                 
         $statement = $conn->prepare($sql);
         $statement->execute($namedParamaters);
@@ -209,6 +210,8 @@
             $sql .= " ORDER BY movieName DESC";
         }
         
+        $sql .= " LIMIT 20";
+                
         $statement = $conn->prepare($sql);
         $statement->execute($namedParamaters);
         $movies = $statement->fetchAll(PDO::FETCH_ASSOC);
