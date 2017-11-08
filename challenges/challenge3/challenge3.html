@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Challenge 3 </title>
+        <script>
+            function highestNum(num1, num2, num3) {
+                var max = 0;
+                if ((num1 >= num2) && (num1 >= num3)){
+                    max = num1;
+                }
+                else if ((num2 >= num1) && (num2 >= num3)){
+                    max = num2;
+                }
+                else {
+                    max = num3;
+                }
+                return max;
+            }
+            function sort(a, b, c){
+                var array = [a, b, c];
+                array.sort();
+                return array;
+            }
+            function check(array, highest) {
+                var output = document.getElementById("output");
+                for (var i = 0; i < 3; i++) {
+                    if (array[i] > 50 || array[i] < 1) {
+                        alert("Invalid Number(s)! Try again.");
+                        
+                        output.innerHTML = "";
+                        return output;
+                    }
+                }
+                
+                if(array[0] == array[1] && array[1] == array[2]) {
+                    output.innerHTML = "";
+                    output.innerHTML += "<h2>The numbers are equal</h2>";
+                    output.innerHTML += "<p>Numbers entered: " + document.getElementById("input-1").value;
+                } else {
+                output.innerHTML = "";
+                   output.innerHTML += "<h2>The biggest number is " + highest + "</h2>";
+                   output.innerHTML += "<p>The numbers in ascending order are: ";
+                   for (var i = 0; i < 3; i++) {
+                       output.innerHTML += array[i] + ", ";
+                   }
+                   output.innerHTML += "</p>";
+                }
+            }
+            function run() {
+                var one = document.getElementById("input-1").value;
+                var two = document.getElementById("input-2").value;
+                var three = document.getElementById("input-3").value;
+                console.log(one);
+                var arr = sort(one, two, three);
+                var highest = highestNum(one, two, three);
+                check(arr, highest);
+                
+            }
+        </script>
+        <style>
+            button {
+                position: relative;
+                top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Sorting Numbers</h1>
+        <form>
+            Number 1:
+            <input id="input-1">
+            </br>
+            Number 2:
+            <input id="input-2">
+            </br>
+            Number 3:
+            <input id="input-3">
+            </br>
+            <button onClick="run()" value="submit" type="button">Sort!</button>
+        </form>
+        <div id="output"></div>
+    </body>
+</html>
