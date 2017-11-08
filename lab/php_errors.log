@@ -159,3 +159,4 @@ Stack trace:
 #0 /home/ubuntu/workspace/bstine/lab/lab6/updateUser.php(54): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/bstine/lab/lab6/updateUser.php on line 54
+[06-Nov-2017 19:04:30 UTC] PHP Fatal error:  Cannot redeclare getDeviceType() (previously declared in /home/ubuntu/workspace/bstine/lab/lab5/index.php:7) in /home/ubuntu/workspace/bstine/lab/lab5/index.php on line 150
