@@ -2,7 +2,7 @@
     // Index page
     session_start();
     //$_SESSION['Movie'];
-    include '../../dbConnection.php';
+    include 'dbCon.php';
     $conn = getDatabaseConnection();
     include 'inc/functions.php';
 

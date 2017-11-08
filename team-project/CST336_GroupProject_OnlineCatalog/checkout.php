@@ -1,5 +1,5 @@
 <?php
-  include '../../dbConnection.php';
+  include 'dbCon.php';
     $conn = getDatabaseConnection();
     
     function getUsers() {

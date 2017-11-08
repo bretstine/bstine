@@ -1,7 +1,7 @@
 <?php
     // Index page
     session_start();
-    include '../../dbConnection.php';
+    include 'dbCon.php';
     $conn = getDatabaseConnection();
     include 'inc/functions.php';
 if(isset($_GET['movieId'])){
@@ -109,7 +109,7 @@ if(isset($_GET['movieId'])){
         </tr>
       </thead>
       <tbody>
-      <?=displayMovies()?>
+      <?=displayMovies2()?>
       </tbody>
       </table>
 
