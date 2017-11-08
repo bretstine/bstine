@@ -62,6 +62,9 @@
         <br /> <br />
         <a href="./team-project/CST336_GroupProject_OnlineCatalog/index.php"><h3>Lab 6</h3></a>
         
+        <br /> <br />
+        <a href="./challenges/challenge3/challenge3.html"><h3>Lab 6</h3></a>
+        
     </nav>
     
 </body>
