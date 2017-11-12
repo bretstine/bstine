@@ -52,7 +52,8 @@
         <a href="./lab/lab3/index.php"><h3>Lab 3</h3></a><b>|</b>
         <a href="./lab/lab4/index.php"><h3>Lab 4</h3></a><b>|</b>
         <a href="./lab/lab5/index.php"><h3>Lab 5</h3></a><b>|</b>
-        <a href="./lab/lab6/index.php"><h3>Lab 6</h3></a>
+        <a href="./lab/lab6/index.php"><h3>Lab 6</h3></a><b>|</b>
+        <a href="./lab/lab7/index.html"><h3>Lab 7</h3></a>
         
         <br /> <br />
         <a href="./homework/homework_1/homepage.html"><h3>Homework 1</h3></a><b>|</b>
@@ -60,10 +61,10 @@
         <a href="./homework/homework_3/index.php"><h3>Homework 3</h3></a>
         
         <br /> <br />
-        <a href="./team-project/CST336_GroupProject_OnlineCatalog/index.php"><h3>Lab 6</h3></a>
+        <a href="./team-project/CST336_GroupProject_OnlineCatalog/index.php"><h3>Team-Project</h3></a>
         
         <br /> <br />
-        <a href="./challenges/challenge3/challenge3.html"><h3>Lab 6</h3></a>
+        <a href="./challenges/challenge3/challenge3.html"><h3>Challenge 3</h3></a>
         
     </nav>
     

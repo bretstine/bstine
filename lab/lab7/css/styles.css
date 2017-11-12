@@ -1,5 +1,6 @@
 #won, #lost {
     display: none;
+    text-align: center;
 }
 
 #word, #letters {

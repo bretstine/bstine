@@ -22,7 +22,7 @@ function startGame() {
 
 function initBoard() {
     for (var i=0; i<selectedWord.length; i++) {
-        board += '_';
+        board += "_";
     }
     
     console.log(board);
@@ -30,7 +30,7 @@ function initBoard() {
 
 function pickWord() {
     var randomInt = Math.floor(Math.random() * words.length);
-    selectedWord = words[randomInt].toUpperCase();
+    selectedWord = words[randomInt].word.toUpperCase();
     selectedHint = words[randomInt].hint;
 }
 
@@ -41,9 +41,17 @@ function updateBoard() {
         document.getElementById("word").innerHTML += letter + " ";
     }
     
-    $("#word").append("<br />");
-    $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+    $("#word").append("<br /><br />");
+    $("#word").append("<button type='button' onClick='showHint()'>Hint</button>");
 }
+
+function showHint() {
+    alert("Hint: " + selectedHint);
+}
+
+$(".hint").click(function() {
+    showHint();
+});
 
 function createLetters() {
     for (var letter of alphabet) {
