@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Homework 4 </title>
+        <meta charset="utf-8" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        
+        <form>
+            
+            <div id="quiz">
+                <fieldset>
+                    <legend> Question 1 </legend>
+                    <p>What is the command to push to github?</p>
+                    <input type="text" name="answerOne" id="answerOne"/>
+                    <div id="firstAns"></div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend> Question 2 </legend>
+                    <p>What does HTML stand for?</p>
+                    <input type="text" name="answerTwo" id="answerTwo"/>
+                    <div id="secondAns"></div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend> Question 3 </legend>
+                    <p>What does PHP stand for?</p>
+                    <select name="category_1" id="category_1">
+                        <option value="">- Select One -</option>
+                        <option value="1">Private Home Page</option>
+                        <option value="2">Personal Hypertext Processor</option>
+                        <option value="3">PHP: Hypertext Preprocessor</option>
+                    </select>
+                    <div id="thirdAns"></div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend> Question 4 </legend>
+                    <p>How do you write "Hello World" in PHP?</p>
+                    <select name="category_2" id="category_2">
+                        <option value="">- Select One -</option>
+                        <option value="1">"Hello World";</option>
+                        <option value="2">echo "Hello World";</option>
+                        <option value="3">document.write("Hello World");</option>
+                    </select>
+                    <div id="fourthAns"></div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend> Question 5 </legend>
+                    <p>All variables in PHP start with which symbol?</p>
+                    <div class="size">
+                        <input type="radio" id="ans1" name="answer" value="&">
+                        <label for="ans1"> & </label> <br />
+                        
+                        <input type="radio" id="ans2" name="answer" value="$">
+                        <label for="ans2"> $ </label> <br />
+                        
+                        <input type="radio" id="ans3" name="answer" value="!">
+                        <label for="ans3"> ! </label>
+                    </div>
+                    <div id="fifthAns"></div>
+                </fieldset>
+            </div>
+            
+            <button class="submit" id="total" type="button" name="submit" onclick="checkAnswers()">Submit</button>
+            
+            <div id="final"></div>
+        
+        </form>
+        
+        <script src="functionsJava.js"></script>
+        
+        <br /> <br />
+        
+        <hr class="hrColour"/>
+        <footer>
+            <img id="imgResize" src="img/csumb.jpg" alt="theses"/>
+            <div class="foot">
+            CST336. 2017&copy; Stine <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+            </div>
+        </footer>
+        
+    </body>
+</html>

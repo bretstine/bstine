@@ -1,0 +1,66 @@
+body {
+    text-align: center !important;
+    background: radial-gradient(#999999, #999999, gray);
+    color: black;
+}
+
+body, .submit, select{
+    font-family: 'Merriweather', serif;
+}
+
+select {
+    margin-top: 10px;
+}
+
+#quiz {
+    display: inline-block;
+    text-align: left;
+}
+
+fieldset {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    display: block;
+    border: 1px solid black;
+}
+
+legend {
+    border: 1px solid black;
+}
+
+footer {
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.foot {
+    padding-left: 10px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hrColour {
+    display: block;
+    border: 0;
+    border-top: 1px solid black;
+    margin-top: 60px;
+}
+
+.size {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submit {
+    font-size: 2em;
+    margin: 10px;
+}
+
+#imgResize {
+    width: 120px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 8px;
+}
