@@ -11,7 +11,7 @@ function checkAnswers() {
         alert("Question 1 was left blank");
         return;
     } else {
-        $("#firstAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is 'git push'");
+        $("#firstAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is 'git push'</h3>");
     }
     
     $("#secondAns").empty();
@@ -23,7 +23,7 @@ function checkAnswers() {
         alert("Question 2 was left blank");
         return;
     } else {
-        $("#secondAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is 'Hypertext Markup Language'");
+        $("#secondAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is 'Hypertext Markup Language'</h3>");
     }
     
     $("#thirdAns").empty();
@@ -36,7 +36,7 @@ function checkAnswers() {
         alert("Question 3 was left blank");
         return;
     } else {
-        $("#thirdAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is 'PHP: Hypertext Preprocessor'");
+        $("#thirdAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is 'PHP: Hypertext Preprocessor'</h3>");
     }
     
     $("#fourthAns").empty();
@@ -49,7 +49,7 @@ function checkAnswers() {
         alert("Question 4 was left blank");
         return;
     } else {
-        $("#fourthAns").append('<h3 style="color:red; text-shadow:1px 1px black">Incorrect Answer! Correct answer is `echo "Hello World";`');
+        $("#fourthAns").append('<h3 style="color:red; text-shadow:1px 1px black">Incorrect Answer! Correct answer is `echo "Hello World";`</h3>');
     }
     
     $("#fifthAns").empty();
@@ -62,7 +62,7 @@ function checkAnswers() {
         alert("Question 5 was left blank");
         return;
     } else {
-        $("#fifthAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is '$'");
+        $("#fifthAns").append("<h3 style='color:red; text-shadow:1px 1px black'>Incorrect Answer! Correct answer is '$'</h3>");
     }
     
     $("#final").empty();
