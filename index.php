@@ -53,9 +53,9 @@
         <a href="./lab/lab4/index.php"><h3>Lab 4</h3></a><b>|</b>
         <a href="./lab/lab5/index.php"><h3>Lab 5</h3></a><b>|</b>
         <a href="./lab/lab6/index.php"><h3>Lab 6</h3></a><b>|</b>
-        <a href="./lab/lab6/index.html"><h3>Lab 7</h3></a><b>|</b>
-        <a href="./lab/lab6/index.php"><h3>Lab 9</h3></a><b>|</b>
-        <a href="./lab/lab7/index.php"><h3>Lab 10</h3></a>
+        <a href="./lab/lab7/index.html"><h3>Lab 7</h3></a><b>|</b>
+        <a href="./lab/lab9/index.php"><h3>Lab 9</h3></a><b>|</b>
+        <a href="./lab/lab10/index.php"><h3>Lab 10</h3></a>
         
         <br /> <br />
         <a href="./homework/homework_1/homepage.html"><h3>Homework 1</h3></a><b>|</b>
