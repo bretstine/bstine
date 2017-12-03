@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://ilearn.csumb.edu/pluginfile.php/721381/mod_resource/content/0/signup.html -->
+<html>
+    <head>
+        <title>AJAX: Sign Up Page</title> 
+        <style type="text/css" id="diigolet-chrome-css"> </style>
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script>
+            function getCity() {
+                //alert($("#zip").val());
+                $.ajax({
+                    type: "GET",
+                    url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                    dataType: "json",
+                    data: { "zip": $("#zip").val() },
+                    success: function(data,status) {
+                        //alert(data);
+                        $("#city").html(data.city);
+                        $("#latitude").html(data.latitude);
+                        $("#longitude").html(data.longitude);
+                    },
+                    complete: function(data,status) {
+                        
+                    }
+                });
+            }
+            
+            $("#zip").change(function() {
+                getCity();
+            });
+        </script>
+    </head>
+
+    <body id="dummybodyid">
+    
+       <h1> Sign Up Form </h1>
+    
+        <form>
+            <fieldset>
+               <legend>Sign Up</legend>
+                First Name:  <input type="text"><br> 
+                Last Name:   <input type="text"><br> 
+                Email:       <input type="text"><br> 
+                Phone Number:<input type="text"><br><br>
+                Zip Code:    <input type="text" id="zip" onchange="getCity()"><br>
+                City: <span id="city"></span>
+                <br>
+                Latitude: <span id="latitude"></span>
+                <br>
+                Longitude: <span id="longitude"></span>
+                <br><br>
+                State: <input type="text"><br>
+                Select a County: <select></select><br>
+                
+                Desired Username: <input type="text"><br>
+                Password: <input type="password"><br>
+                Type Password Again: <input type="password"><br>
+                <input type="submit" value="Sign up!">
+            </fieldset>
+        </form>
+
+    </body>
+</html>

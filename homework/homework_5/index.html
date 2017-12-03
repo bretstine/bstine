@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Movie API Database </title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script>
+            function apiCall() {
+                var title = document.getElementById("find").value;
+                $.getJSON('https://www.omdbapi.com/?t=' + encodeURI(title) + '&i=tt3896198&apikey=a8ccf6d').then(function(response){
+                    var image = response.Poster;
+                    
+                    if (image !== "N/A") {
+                        $('img').attr('src', image);
+                    }
+                });
+                
+                $.ajax({
+                    type: "GET",
+                    url: "database.php",
+                    dataType: "json",
+                    data: { "find": $("#find").val() },
+                    success: function(data,status) {
+                        //alert(data);
+                        $("#city").html(data.city);
+                        $("#latitude").html(data.latitude);
+                        $("#longitude").html(data.longitude);
+                    },
+                    complete: function(data,status) {
+                        
+                    }
+                });
+            }
+            
+            
+            
+            apiCall();
+        </script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <h3>Movie API Database</h3>
+            <img src="img/noImage.jpg" />
+            <form>
+                <input type="text" name="find" id="find" placeholder="Movie Title"/>
+                <button type="button" name="search" onclick="apiCall()">Search</button>
+            </form>
+        </div>
+        
+        <br />
+        
+    </body>
+</html>

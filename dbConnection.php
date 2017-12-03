@@ -1,10 +1,9 @@
 <?php
 
 
-    function getDatabaseConnection() {
+    function getDatabaseConnection($dbname = 'tcp') {
         
         $host = 'localhost';
-        $dbname = 'tcp';
         $username = 'root';
         $password = '';
         

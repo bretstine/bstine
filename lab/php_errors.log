@@ -160,3 +160,12 @@ Stack trace:
 #1 {main}
   thrown in /home/ubuntu/workspace/bstine/lab/lab6/updateUser.php on line 54
 [06-Nov-2017 19:04:30 UTC] PHP Fatal error:  Cannot redeclare getDeviceType() (previously declared in /home/ubuntu/workspace/bstine/lab/lab5/index.php:7) in /home/ubuntu/workspace/bstine/lab/lab5/index.php on line 150
+[29-Nov-2017 21:21:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php(20): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php on line 12
+[01-Dec-2017 21:43:11 UTC] PHP Fatal error:  Call to undefined function displayGallery() in /home/ubuntu/workspace/bstine/lab/lab10/index.php on line 62
+[01-Dec-2017 21:43:11 UTC] PHP Stack trace:
+[01-Dec-2017 21:43:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/lab/lab10/index.php:0
