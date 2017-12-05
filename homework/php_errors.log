@@ -17,3 +17,377 @@
 [09-Oct-2017 22:33:15 UTC] PHP Fatal error:  Call to undefined function checkAnswers() in /home/ubuntu/workspace/bstine/homework/homework_3/index.php on line 156
 [09-Oct-2017 22:33:15 UTC] PHP Stack trace:
 [09-Oct-2017 22:33:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/homework/homework_3/index.php:0
+[05-Dec-2017 21:04:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:07:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:11:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:12:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:13:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:15:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:16:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:16:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:18:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('game ' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:18:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Harry' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:19:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('game ' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:20:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Harry' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:22:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:23:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 18
+[05-Dec-2017 21:25:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 20
+[05-Dec-2017 21:28:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 19
+[05-Dec-2017 21:28:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 19
+[05-Dec-2017 21:29:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 19
+[05-Dec-2017 21:29:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 19
+[05-Dec-2017 21:32:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 19
+[05-Dec-2017 21:33:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:37:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:39:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:40:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 19
+[05-Dec-2017 21:40:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` (movieTitle, movieGenre, movieYear, time)
+            VALUES ('Deadp' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 19
+[05-Dec-2017 21:42:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:43:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:44:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:44:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:46:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieId, movieTitle, movieGenre, movieYear, time)
+    ' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:48:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 21:49:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:50:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:51:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:53:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:53:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:53:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:53:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:54:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:54:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:54:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:55:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:55:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:55:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:56:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:57:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:57:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:58:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:58:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 21:58:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 22:03:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 22:03:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 22:04:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 22:04:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 22:04:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 23
+[05-Dec-2017 22:05:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21
+[05-Dec-2017 22:05:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`db_movies` 
+            (movieTitle, movieGenre, movieYear, time)
+            V' at line 1' in /home/ubuntu/workspace/bstine/homework/homework_5/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/homework/homework_5/database.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bstine/homework/homework_5/database.php on line 21

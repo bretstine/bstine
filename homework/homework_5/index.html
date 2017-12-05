@@ -14,48 +14,60 @@
         <script>
             function apiCall() {
                 var title = document.getElementById("find").value;
+                var image;
+                // var year;
+                // var genre;
                 $.getJSON('https://www.omdbapi.com/?t=' + encodeURI(title) + '&i=tt3896198&apikey=a8ccf6d').then(function(response){
-                    var image = response.Poster;
-                    
+                    image = response.Poster;
+                    // year = response.Year;
+                    // genre = response.Genre;
+                    var dataString = 'title=' + response.Title + '&year=' + response.Year + '&genre' + response.Genre;
                     if (image !== "N/A") {
                         $('img').attr('src', image);
                     }
-                });
-                
-                $.ajax({
-                    type: "GET",
-                    url: "database.php",
-                    dataType: "json",
-                    data: { "find": $("#find").val() },
-                    success: function(data,status) {
-                        //alert(data);
-                        $("#city").html(data.city);
-                        $("#latitude").html(data.latitude);
-                        $("#longitude").html(data.longitude);
-                    },
-                    complete: function(data,status) {
-                        
-                    }
+                    
+                    $.ajax({
+                        type: "GET",
+                        url: "database.php",
+                        dataType: "json",
+                        data: { "movie": $("#find").val() },
+                        success: function(data) {
+                            alert(data);
+                            $("#title").html(data.title);
+                            $("#year").html(data.year);
+                            $("#genre").html(data.genre);
+                        },
+                        complete: function(data) {
+                            
+                        }
+                    });
                 });
             }
             
             
-            
-            apiCall();
+            // $("#find").change(function() {
+            //     apiCall();
+            // });
         </script>
+        
     </head>
     <body>
         
         <div class="container">
             <h3>Movie API Database</h3>
             <img src="img/noImage.jpg" />
+            
             <form>
-                <input type="text" name="find" id="find" placeholder="Movie Title"/>
-                <button type="button" name="search" onclick="apiCall()">Search</button>
+                <input type="text" id="find" placeholder="Movie Title" onchange="apiCall()"/>
+                <button type="button" name="search" id="search" onclick="apiCall()">Search</button>
             </form>
+            
+            <br />
+            
+            Movie Name: <span id="title"></span> <br />
+            Movie Genre: <span id="genre"></span> <br />
+            Movie Year: <span id="year"></span> <br />
         </div>
-        
-        <br />
         
     </body>
 </html>
