@@ -30,7 +30,7 @@
                         type: "GET",
                         url: "database.php",
                         dataType: "json",
-                        data: { "movie": $("#find").val() },
+                        data: dataString,
                         success: function(data) {
                             alert(data);
                             $("#title").html(data.title);
