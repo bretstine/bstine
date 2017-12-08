@@ -3,7 +3,7 @@
     
     function getPetList() {
         include '../../dbConnection.php';
-        $conn = getDatabaseConnection();
+        $conn = getDatabaseConnection("c9");
         
         $sql = "SELECT *
                 FROM `adoptees`";

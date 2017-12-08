@@ -69,6 +69,9 @@
         <br /> <br />
         <a href="./challenges/challenge3/challenge3.html"><h3>Challenge 3</h3></a>
         
+        <br /> <br />
+        <a href="./finalproject/index.php"><h3>Final Project</h3></a>
+        
     </nav>
     
 </body>

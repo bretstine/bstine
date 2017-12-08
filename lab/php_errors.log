@@ -169,3 +169,9 @@ Stack trace:
 [01-Dec-2017 21:43:11 UTC] PHP Fatal error:  Call to undefined function displayGallery() in /home/ubuntu/workspace/bstine/lab/lab10/index.php on line 62
 [01-Dec-2017 21:43:11 UTC] PHP Stack trace:
 [01-Dec-2017 21:43:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/bstine/lab/lab10/index.php:0
+[06-Dec-2017 23:31:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php(52): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/bstine/lab/lab9/adoptions.php on line 12

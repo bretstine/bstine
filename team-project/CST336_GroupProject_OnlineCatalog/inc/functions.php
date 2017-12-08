@@ -143,7 +143,7 @@
             echo"<td>";
             $name = replaceAll($movies['movieName']); 
             $pic = movieInfo($name);
-            $info = overView($name);
+            $info = overView($name); 
             echo "<div class='container2' >";
             echo "<button type='button' class='btn btn-info btn-sm' data-toggle='modal' data-target='#".''.$name.''."'>Preview</button>";
             echo " ";

@@ -10,3 +10,9 @@ Stack trace:
 #1 /home/ubuntu/workspace/bstine/team-project/CST336_GroupProject_OnlineCatalog/index.php(112): displayMovies()
 #2 {main}
   thrown in /home/ubuntu/workspace/bstine/team-project/CST336_GroupProject_OnlineCatalog/inc/functions.php on line 134
+[08-Dec-2017 01:16:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/bstine/team-project/CST336_GroupProject_OnlineCatalog/dbCon.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/bstine/team-project/CST336_GroupProject_OnlineCatalog/dbCon.php(11): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/ubuntu/workspace/bstine/team-project/CST336_GroupProject_OnlineCatalog/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/bstine/team-project/CST336_GroupProject_OnlineCatalog/dbCon.php on line 11
