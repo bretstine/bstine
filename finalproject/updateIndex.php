@@ -94,7 +94,7 @@
   						</div>	
   						<div class="row">
   							<div class="col-sm-4 form-group">
-  								<label>Release Date</label>
+  								<label>Release</label>
   								<input type="text" name="gameRelease" value="<?=$game['gameRelease'] ?>" class="form-control">
   							</div>	
   							<div class="col-sm-4 form-group">
